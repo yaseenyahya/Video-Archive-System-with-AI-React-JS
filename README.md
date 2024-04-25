@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Video Archive System with AI Transcription and Search Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Video Archive System is a comprehensive solution designed for news channels to manage their video archives efficiently. Built using React.js for the frontend and Node.js for the backend, this system provides AI-powered transcription capabilities and a robust video search engine.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **AI Transcription:** Automatically transcribe videos using advanced AI technology, enabling quick and accurate text extraction from audio content.
 
-### `npm start`
+- **Video Search Engine:** Powerful search engine capable of searching videos based on their transcriptions, allowing users to find relevant content quickly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Recursive Folder Search:** Capability to scan folders recursively to locate videos, ensuring that the entire video archive is indexed for easy access.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Language Translation:** Translate transcriptions from Urdu to English and Roman scripts, providing multilingual support for users.
 
-### `npm test`
+## Architecture
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Video Archive System is built on a client-server architecture:
 
-### `npm run build`
+- **Frontend:** Developed using React.js, providing a user-friendly interface for browsing videos, searching transcriptions, and managing the archive.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Backend:** Built with Node.js, responsible for handling video uploads, transcription requests, search queries, and language translation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Upload Videos: Add videos to the archive by uploading them through the system's interface.
+2. Transcribe Videos: Automatically transcribe uploaded videos using the AI transcription feature.
+3. Search Videos: Utilize the powerful search engine to find videos based on their transcriptions or metadata.
+4. Translate Transcriptions: Translate transcriptions from Urdu to English or Roman scripts for better accessibility.
+5. Manage Archive: Organize, edit, and delete videos as needed to maintain an organized archive.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For inquiries or support, please contact [yaseenyahya021@gmail.com](mailto:yaseenyahya021@gmail.com).
