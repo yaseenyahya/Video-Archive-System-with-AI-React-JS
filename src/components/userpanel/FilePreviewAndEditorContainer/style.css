@@ -1,0 +1,18 @@
+.tox-tinymce{
+    border-radius: 0!important;
+}
+
+.tox-edit-area{
+    border-right: 4px solid #222f3e!important;
+    border-left: 4px solid #222f3e!important;
+}
+.tox-menubar,.tox-editor-header{
+    background-color: #4a4a4a!important;
+}
+.tox .tox-tbtn--select:nth-child(1){
+    background: #088f08!important;
+    cursor: pointer!important;
+}
+.tox .tox-tbtn--select:nth-child(1) span{
+    cursor: pointer!important;
+}

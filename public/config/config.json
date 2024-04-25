@@ -1,0 +1,29 @@
+{
+    "development": {
+        "port": 8080,
+        "graphql_endpoint": "graphql",
+        "graphql_domain": "http://localhost",
+        "graphql_subscription_domain": "ws://localhost",
+        "graphql_subscription_endpoint": "graphql",
+        "serverip": "http://localhost"
+       
+    },
+    "test": {
+        "port": 8080,
+        "graphql_endpoint": "graphql",
+        "graphql_domain": "http://localhost",
+        "graphql_subscription_domain": "wss://localhost",
+        "graphql_subscription_endpoint": "graphql",
+        "serverip": "http://localhost"
+       
+    },
+    "production": {
+        "port": "8081",
+        "graphql_endpoint": "graphql",
+        "graphql_domain": "https://localhost",
+        "graphql_subscription_domain": "wss://localhost",
+        "graphql_subscription_endpoint": "graphql",
+        "serverip": "http://localhost"
+       
+    }
+}
