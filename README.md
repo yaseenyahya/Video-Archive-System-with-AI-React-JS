@@ -1,4 +1,4 @@
-# Video Archive System with AI Transcription and Search Engine
+# Video Archive System with AI Transcription and Search Engine (Frontend React.js)
 
 The Video Archive System is a comprehensive solution designed for news channels to manage their video archives efficiently. Built using React.js for the frontend and Node.js for the backend, this system provides AI-powered transcription capabilities and a robust video search engine.
 
